@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Proto-Lanzavel</title>
+        <link rel="stylesheet" href="../styles.css" />
+    </head>
+    <body>
+        <h1>Proto-Lanzavel</h1>
+
+        <p>
+            Welcome to my conlang! This is <b>Proto-Lanzavel</b>, which is a
+            more ancient version of the modern Lanzavel language. <br />
+            This is
+            <b>not a document for those who wants to study the language.</b>
+            It's a basic foundation of the conlang.<br />
+            Once this language gets out of the proto status, it will be adjusted
+            to new learners. But for now, there may be mistakes,
+            inconsistencies, and variable information. <br />
+            Lanzavel is supposed to be a minimalist conlang that can also convey
+            meaning.
+        </p>
+
+        <h1>Phonetics / Phonology</h1>
+
+        <!--
+        <ul>
+            <li>
+                <code>[C]</code> and <code>[V]</code> accordingly mean
+                consonants and vowels, and is used for situations where
+                pronunciation is altered depending on syllable structure.
+            </li>
+            <li>
+                <b>Red</b> table areas indicate diphthongs / consonant clusters
+                that alter pronunciation.
+            </li>
+        </ul>
+
+        <h3>Vowels</h3>
+
+        <table style="width: 50%; table-layout: fixed">
+            <thead>
+                <tr>
+                    <th rowspan="2" colspan="2">Height ↓<br />Backness →</th>
+                    <th rowspan="2" colspan="2">Front</th>
+                    <th rowspan="2" colspan="2">Near-Front</th>
+                    <th rowspan="2" colspan="2">Mid</th>
+                    <th rowspan="2" colspan="2">Near-Open</th>
+                    <th rowspan="2" colspan="2">Open</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="2">Close</th>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Near-Close</th>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td><br /><br /></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Close-Mid</th>
+                    <td><br /><br /></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Mid</th>
+                    <td colspan="4"></td>
+                    <td colspan="2"></td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Open-Mid</th>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Near-Open</th>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Open</th>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Consonants</h3>
+
+        <table style="width: 90%; text-align: center; table-layout: fixed">
+            <thead>
+                <tr>
+                    <th rowspan="2" colspan="2">Manner ↓<br />Place →</th>
+                    <th rowspan="2" colspan="2">Bila-<br />bial</th>
+                    <th rowspan="2" colspan="2">Labio-<br />dental</th>
+                    <th rowspan="2" colspan="2">Dental</th>
+                    <th rowspan="2" colspan="2">Alve-<br />olar</th>
+                    <th rowspan="2" colspan="2">Alveolo-<br />palatal</th>
+                    <th rowspan="2" colspan="2">Pala-<br />tal</th>
+                    <th rowspan="2" colspan="2">Velar</th>
+                    <th rowspan="2" colspan="2">Labio-velar</th>
+                    <th rowspan="2" colspan="2">Glot-<br />tal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="2">Plosive</th>
+                    <td>[pʰ]<br /><b>p</b></td>
+                    <td>[b]<br /><b>b</b></td>
+                    <td></td>
+                    <td></td>
+                    <td
+                        colspan="3"
+                        style="text-align: right; padding-right: 25px"
+                    >
+                        [tʰ]<br /><b>t</b>
+                    </td>
+                    <td>[d]<br /><b>d</b></td>
+                    <td></td>
+                    <td></td>
+                    <td>[c]<br /><b>q</b></td>
+                    <td></td>
+                    <td>[kʰ]<br /><b>k</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Nasal</th>
+                    <td></td>
+                    <td>[m]<br /><b>m</b></td>
+                    <td></td>
+                    <td></td>
+                    <td
+                        colspan="3"
+                        style="text-align: right; padding-right: 25px"
+                    ></td>
+                    <td>[n]<br /><b>n</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="inverted">[ŋ]<br /><b>ng</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Tap or Flap</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td
+                        colspan="3"
+                        style="text-align: right; padding-right: 25px"
+                    ></td>
+                    <td>[ɾ]<br /><b>r</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Fricative</th>
+                    <td></td>
+                    <td></td>
+                    <td>[f]<br /><b>f</b></td>
+                    <td>[v]<br /><b>v</b></td>
+                    <td>[θ]<br /><b>θ</b></td>
+                    <td>[ð]<br /><b>ð</b></td>
+                    <td>[s]<br /><b>c</b></td>
+                    <td>[z]<br /><b>z</b></td>
+                    <td>[ɕ]<br /><b>s</b></td>
+                    <td>[ʑ]<br /><b>ζ</b></td>
+                    <td id="inverted">[ç]<br /><b>ch</b></td>
+                    <td></td>
+                    <td>[x]<br /><b>x</b></td>
+                    <td>[ɣ]<br /><b>g</b></td>
+                    <td></td>
+                    <td></td>
+                    <td>[h]<br /><b>h</b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Lateral Fricative</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td
+                        colspan="3"
+                        style="text-align: right; padding-right: 25px"
+                        id="inverted"
+                    >
+                        [ɬ]<br /><b>sl</b>
+                    </td>
+                    <td id="inverted">[ɮ]<br /><b>zl</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Approximant</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td
+                        colspan="3"
+                        style="text-align: right; padding-right: 25px"
+                    ></td>
+                    <td id="inverted">[ɹ]<br /><b>r[C]</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>[j]<br /><b>j</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>[w]<br /><b>w</b></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Lateral Approximant</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td
+                        colspan="3"
+                        style="text-align: right; padding-right: 25px"
+                    >
+                        <br /><b></b>
+                    </td>
+                    <td>[l]<br /><b>l</b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ul>
+            <li>Vowel Names: <code>[V]-rf</code></li>
+            <li>Consonant Names: <code>[C]-ef</code></li>
+            <li>
+                Capitalisation is only used for
+                <b
+                    >brand names, location names, human names, the start of
+                    every sentence, and every word in a title (except
+                    particles)</b
+                >
+            </li>
+
+            <li>Punctuation is same as in English</li>
+            <li>
+                The letter <code>Jj</code> is not used as a standalone
+                consonant,
+                <i>it only follows a vowel, or is followed by a vowel.</i>
+                <ul>
+                    <li>kjl (incorrect) -> kil (correct)</li>
+                    <li>kje (correct), kej (correct), kjej (correct)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Accent</h4>
+
+        <blockquote>
+            The primary accent is on the first syllable of every word, except
+            for particles. <br />
+            And the secondary accent is on the first syllable that starts with a
+            consonant (excluding the first syllable)
+        </blockquote>
+
+        <h2>Grammar</h2>
+
+        <h3>Pronouns</h3>
+
+        <h4>Personal Pronouns</h4>
+
+        <table style="width: 50%; text-align: center; table-layout: fixed">
+            <thead>
+                <tr>
+                    <th>Perspective ↓<br />Type →</th>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>First</th>
+                    <td>mi</td>
+                    <td>velka</td>
+                </tr>
+                <tr>
+                    <th>Second</th>
+                    <td>alen</td>
+                    <td>alensa</td>
+                </tr>
+                <tr>
+                    <th>Third</th>
+                    <td>haka</td>
+                    <td>hakasa</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Demonstrative Pronouns and Adjectives</h4>
+
+        <table style="width: 50%; text-align: center; table-layout: fixed">
+            <thead>
+                <tr>
+                    <th>Proximal (includes Endophoric references)</th>
+                    <th>Medial</th>
+                    <th>Distal</th>
+                    <th>Interrogative</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>cetra</td>
+                    <td>melka</td>
+                    <td>veθra</td>
+                    <td>laca</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Interrogative Pronouns</h4>
+
+        <table style="width: 50%; text-align: center; table-layout: fixed">
+            <thead>
+                <tr>
+                    <th>Reason = why</th>
+                    <th>Place / Location = where</th>
+                    <th>Timeline = when</th>
+                    <th>Method = how</th>
+                    <th>Subject = who</th>
+                    <th>Object = what, which</th>
+                    <th>Quantifier = how many, how much</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>laco</td>
+                    <td>lakov</td>
+                    <td>latra</td>
+                    <td>lapa</td>
+                    <td>laka</td>
+                    <td>laca</td>
+                    <td>lakeca</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Sentence Structure and Particles</h3>
+
+        <pre><code>[S] en [O] ko [V]</code></pre>
+
+        <blockquote>
+            Each part (<code>[S], [O], [V]</code>) can be omitted if
+            necessary.<br />
+            (In the codeblocks below, anything surrounded by a parenthesis
+            <code>()</code> is purely optional)<br />
+            Determiners/demonstrative adjectives, quantifiers are treated as
+            <b>nouns</b>, which mean it can go in the noun slot. Anything else
+            (particles, verbs, adjectives) are not treated as nouns and
+            therefore can't be present inside the noun slot nor be conjugated
+            following the noun conversions. <code>[S]</code> and
+            <code>[O]</code> must be a noun phrase, where;<br />
+            <pre><code>([verb phrase]) ([determiner]) ([quantifier]) ([conjugated and/or compound adjective]) [conjugated and/or compound noun] ([particle])</code></pre>
+            <code>[V]</code> must be a verb phrase, where;
+            <pre><code>([temporal modifier (noun phrase + particle)]) ([conjugated and/or compound manner modifier = adverb]) [conjugated and/or compound verb]</code></pre>
+        </blockquote>
+
+        <h4>The Particle <code>vel</code></h4>
+
+        <ul>
+            <li>
+                <code>[A] vel [B]</code> - <code>[A]</code>'s
+                <code>[B]</code> or <code>[B]</code> of <code>[A]</code><br />
+            </li>
+            <li>
+                <code>[A] vel</code> - Standalone, <code>[A]</code>'s
+                <i>(object)</i>
+            </li>
+            <li>
+                <code>[V] vel</code> - <b>noun-ifies a verb</b> (when used,
+                <b>converts a verb phrase to a noun phrase</b> which means it
+                can be conjugated following the noun conversions)
+                <ul>
+                    <li>the act of <code>[V]</code>-ing</li>
+                    <li>something to <code>[V]</code> to</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>The Particle <code>ile</code></h4>
+
+        <blockquote>
+            <pre><code>[A] ile</code></pre>
+
+            at (location), on (relational), in (containment), to (direction),
+            from (ONE-WAY!! derive) <code>[A]</code>
+        </blockquote>
+
+        <h4>The Particle <code>gelo</code></h4>
+
+        <blockquote>
+            <pre><code>[A] gelo</code></pre>
+            as (replacement, alias), with (utilize) <code>[A]</code>
+        </blockquote>
+
+        <h4>Other Particles</h4>
+
+        <ul>
+            <li>
+                <pre><code>[A] kel [B] (kel ...)</code></pre>
+                <code>[A]</code> and <code>[B]</code> (and so on)
+                <code>[A]</code> with <code>[B]</code> (and so on) Indicating
+                chaining, linking, and gathering for the list of things.
+            </li>
+            <li>
+                <pre><code>[A] dül [B] (dül ...)</code></pre>
+                <code>[A]</code> or <code>[B]</code> (and so on) Indicating
+                uncertainty and usually choice(s) between the list of things.
+            </li>
+            <li>
+                <pre><code>[A] ästa ([B] ästa...)</code></pre>
+                <code>also [A]</code> (and so on) 1. Adds to an existing set,
+                but with a sense of exclusion or regret—as if the addition
+                highlights what's missing or broken. Treated as negative by
+                default, often used to mark unwanted inclusion or burdensome
+                accumulation.
+                <b>Treated as a negative statement if chained with verbs.</b>
+
+                2. Adds to an existing set with deliberate affirmation; used to
+                express welcomed inclusion or chosen unity.
+                <b>Treated as a POSITIVE statement when positive.</b>
+            </li>
+            <li>
+                <pre><code>[A] ζecto</code></pre>
+                <code>only [A]</code>
+                1. Indicates singularity or exclusion; the subject stands alone,
+                detached from others. Carries an inherent negative weight, often
+                implying loss, abandonment, or deliberate separation.
+                <b>Also treated as a negative statement by default.</b>
+
+                2. Indicates inclusion with deliberate affirmation.
+                <b>Treated as a POSITIVE statement when positive.</b>
+            </li>
+        </ul>
+
+        <h3>Noun Conversions</h3>
+        <h3>Numbers and Counting</h3>
+
+        <h4>Base Numbers</h4>
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Equivalent</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>nil</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>unja</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>doc</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>tra</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>fjemta</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>kinta</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>sekta</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>septa</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>okta</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>nove</td>
+            </tr>
+        </table>
+
+        <h4>Large Numbers</h4>
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Equivalent</th>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>deci</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>centi</td>
+            </tr>
+            <tr>
+                <td>1000</td>
+                <td>mili</td>
+            </tr>
+            <tr>
+                <td>10000</td>
+                <td>deci-mili</td>
+            </tr>
+            <tr>
+                <td>100000</td>
+                <td>centi-mili</td>
+            </tr>
+            <tr>
+                <td>1000000</td>
+                <td>mikri</td>
+            </tr>
+            <tr>
+                <td>10000000</td>
+                <td>deci-mikri</td>
+            </tr>
+            <tr>
+                <td>100000000</td>
+                <td>centi-mikri</td>
+            </tr>
+            <tr>
+                <td>1e12</td>
+                <td>nali</td>
+            </tr>
+            <tr>
+                <td>1e15</td>
+                <td>fjemi</td>
+            </tr>
+            <tr>
+                <td>1e18</td>
+                <td>atili</td>
+            </tr>
+            <tr>
+                <td>1e21</td>
+                <td>zepti</td>
+            </tr>
+            <tr>
+                <td>1e24</td>
+                <td>yokti</td>
+            </tr>
+            <tr>
+                <td>1e27</td>
+                <td>roni</td>
+            </tr>
+            <tr>
+                <td>1e30</td>
+                <td>kekti</td>
+            </tr>
+        </table>
+
+        <h4>Small Numbers</h4>
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Equivalent</th>
+            </tr>
+            <tr>
+                <td>1/10</td>
+                <td>deca</td>
+            </tr>
+            <tr>
+                <td>1/100</td>
+                <td>centa</td>
+            </tr>
+            <tr>
+                <td>1/1000</td>
+                <td>mila</td>
+            </tr>
+            <tr>
+                <td>1/10000</td>
+                <td>deci-mila</td>
+            </tr>
+            <tr>
+                <td>1/100000</td>
+                <td>centa-mila</td>
+            </tr>
+            <tr>
+                <td>1/1000000</td>
+                <td>mikra</td>
+            </tr>
+            <tr>
+                <td>1/10000000</td>
+                <td>deci-mikra</td>
+            </tr>
+            <tr>
+                <td>1/100000000</td>
+                <td>centa-mikra</td>
+            </tr>
+            <tr>
+                <td>1/1e12</td>
+                <td>nala</td>
+            </tr>
+            <tr>
+                <td>1/1e15</td>
+                <td>fjema</td>
+            </tr>
+            <tr>
+                <td>1/1e18</td>
+                <td>atila</td>
+            </tr>
+            <tr>
+                <td>1/1e21</td>
+                <td>zepta</td>
+            </tr>
+            <tr>
+                <td>1/1e24</td>
+                <td>yokta</td>
+            </tr>
+            <tr>
+                <td>1/1e27</td>
+                <td>rona</td>
+            </tr>
+            <tr>
+                <td>1/1e30</td>
+                <td>kekta</td>
+            </tr>
+        </table>
+
+        <h4>Arithmetic</h4>
+        <ul>
+            <li><code>a + b</code> → <code>a adja b</code></li>
+            <li><code>a - b</code> → <code>a mina b</code></li>
+            <li><code>a * b</code> → <code>a məltifa b</code></li>
+            <li><code>a / b</code> → <code>a divra b</code></li>
+            <li><code>a ^ b</code> → <code>a povora b</code></li>
+            <li><code>^b√a</code> → <code>a vel b eta ruta</code></li>
+            <li><code>√a</code> → <code>a vel uta</code></li>
+        </ul>
+
+        <h4>Misc</h4>
+        <ul>
+            <li>Use <b>ponto</b> for the floating point</li>
+            <li>Spell out every digit for small numbers</li>
+            <li>
+                Combine the large number terms if needed (round it up if you
+                want)
+            </li>
+            <li>Use scientific notation (with the arithmetics above)</li>
+        </ul>
+
+        <h4>Quantifiers</h4>
+        <ul>
+            <li>
+                Numbers are ordinals by default. For cardinals, use
+                <code>[num.] eta</code>
+            </li>
+        </ul>
+        -->
+        <h2>Vowels</h2>
+    </body>
+</html>
