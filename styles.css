@@ -138,16 +138,16 @@ h3 {
 
 a {
     text-decoration: none;
-    text-shadow: 0 0 1.25px rgb(229, 112, 235), 0 0 2.5px rgb(229, 112, 235),
-        0 0 5px rgb(229, 112, 235);
-    color: rgb(229, 112, 235);
+    text-shadow: 0 0 1.25px rgb(125, 60, 236), 0 0 2.5px rgb(125, 60, 236),
+        0 0 5px rgb(125, 60, 236);
+    color: rgb(125, 60, 236);
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(0, 174, 187);
-    text-shadow: 0 0 1.25px rgb(0, 174, 187), 0 0 2.5px rgb(0, 174, 187),
-        0 0 5px rgb(0, 174, 187);
+    color: rgb(122, 246, 255);
+    text-shadow: 0 0 1.25px rgb(122, 246, 255), 0 0 2.5px rgb(122, 246, 255),
+        0 0 5px rgb(122, 246, 255);
     transition: all 0.2s;
 }
 
