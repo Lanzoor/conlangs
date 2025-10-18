@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(30, 30, 46);
+    background-color: rgb(25, 25, 41);
     font-family: 'FiraCode Nerd Font', 'JetBrains Mono', Consolas, monospace;
     font-size: 15px;
 }
 
 * {
     font-family: 'FiraCode Nerd Font', 'JetBrains Mono', Consolas, monospace;
-    text-shadow: 1px 1px 2px currentColor, 2px 2px 4px rgb(49, 50, 68);
+    text-shadow: 1px 1px 2px currentColor, 2px 2px 4px rgb(35, 35, 55);
 }
 
 p,
@@ -18,7 +18,7 @@ ol,
 blockquote,
 ul ul,
 ol ol {
-    color: rgb(215, 215, 215);
+    color: rgb(180, 185, 200);
 }
 
 p {
@@ -28,11 +28,11 @@ p {
 
 i,
 b {
-    color: rgb(136, 136, 136);
+    color: rgb(140, 145, 160);
 }
 
 b:hover {
-    color: rgb(223, 223, 223);
+    color: rgb(200, 205, 220);
     text-shadow: 0 0 1.25px currentColor, 0 0 2.5px currentColor,
         0 0 5px currentColor;
     transition: all 0.2s;
@@ -44,7 +44,7 @@ td {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid rgb(255, 226, 234);
+    border: 1px solid rgb(100, 105, 130);
     border-collapse: collapse;
     padding: 10px;
     transition: all 0.2s;
@@ -56,74 +56,74 @@ table {
 }
 
 td:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 4px 2px rgba(189, 189, 189, 0.7);
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 4px 2px rgba(120, 125, 150, 0.5);
 }
 
 th {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 th:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 0 6px 4px rgba(189, 189, 189, 0.8);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 6px 4px rgba(120, 125, 150, 0.6);
 }
 
 #inverted {
-    background-color: rgba(254, 62, 62, 0.5);
-    color: rgb(161, 161, 161);
+    background-color: rgba(75, 80, 105, 0.5);
+    color: rgb(160, 165, 180);
 }
 
 #inverted:hover {
-    background-color: rgb(234, 61, 61);
-    box-shadow: 0 0 8px 8px rgba(139, 0, 0, 0.7);
-    color: rgb(255, 255, 255);
+    background-color: rgb(85, 90, 115);
+    box-shadow: 0 0 8px 8px rgba(70, 75, 100, 0.6);
+    color: rgb(220, 225, 240);
     transition: all 0.2s;
 }
 
 #inverted i,
 #inverted b {
-    color: rgb(78, 78, 78);
+    color: rgb(120, 125, 140);
     font-style: normal;
 }
 
 #inverted:hover i,
 #inverted:hover b {
-    color: rgb(190, 190, 190);
+    color: rgb(180, 185, 200);
     font-style: normal;
     transition: all 0.2s;
 }
 
 h1 {
-    color: rgb(98, 114, 164);
-    text-shadow: 0 0 1px rgb(98, 114, 164), 0 0 2px rgb(98, 114, 164),
-        0 0 3px rgb(98, 114, 164);
+    color: rgb(90, 110, 160);
+    text-shadow: 0 0 1px rgb(90, 110, 160), 0 0 2px rgb(90, 110, 160),
+        0 0 3px rgb(90, 110, 160);
     font-size: 25px;
 }
 
 h2 {
-    color: rgb(121, 138, 192);
-    text-shadow: 0 0 1px rgb(121, 138, 192), 0 0 2px rgb(121, 138, 192),
-        0 0 3px rgb(121, 138, 192);
+    color: rgb(105, 125, 165);
+    text-shadow: 0 0 1px rgb(105, 125, 165), 0 0 2px rgb(105, 125, 165),
+        0 0 3px rgb(105, 125, 165);
 }
 
 th {
-    color: rgb(243, 139, 168);
-    text-shadow: 0 0 1px rgb(243, 139, 168), 0 0 2px rgb(243, 139, 168),
-        0 0 3px rgb(243, 139, 168);
+    color: rgb(130, 150, 180);
+    text-shadow: 0 0 1px rgb(130, 150, 180), 0 0 2px rgb(130, 150, 180),
+        0 0 3px rgb(130, 150, 180);
 }
 
 h3 {
-    color: rgb(65, 129, 59);
-    text-shadow: 0 0 1px rgb(65, 129, 59), 0 0 2px rgb(65, 129, 59),
-        0 0 3px rgb(65, 129, 59);
+    color: rgb(80, 100, 140);
+    text-shadow: 0 0 1px rgb(80, 100, 140), 0 0 2px rgb(80, 100, 140),
+        0 0 3px rgb(80, 100, 140);
     font-size: 20px;
 }
 
 h4 {
-    color: rgb(0, 111, 30);
-    text-shadow: 0 0 0.5px rgb(0, 111, 30), 0 0 0.5px rgb(0, 111, 30),
-        0 0 1px rgb(0, 111, 30);
+    color: rgb(70, 90, 130);
+    text-shadow: 0 0 0.5px rgb(70, 90, 130), 0 0 0.5px rgb(70, 90, 130),
+        0 0 1px rgb(70, 90, 130);
     font-size: 17.5px;
     padding-left: 10px;
 }
@@ -138,23 +138,23 @@ h3 {
 
 a {
     text-decoration: none;
-    text-shadow: 0 0 1.25px rgb(125, 60, 236), 0 0 2.5px rgb(125, 60, 236),
-        0 0 5px rgb(125, 60, 236);
-    color: rgb(125, 60, 236);
+    text-shadow: 0 0 1.25px rgb(110, 90, 170), 0 0 2.5px rgb(110, 90, 170),
+        0 0 5px rgb(110, 90, 170);
+    color: rgb(110, 90, 170);
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(122, 246, 255);
-    text-shadow: 0 0 1.25px rgb(122, 246, 255), 0 0 2.5px rgb(122, 246, 255),
-        0 0 5px rgb(122, 246, 255);
+    color: rgb(130, 170, 210);
+    text-shadow: 0 0 1.25px rgb(130, 170, 210), 0 0 2.5px rgb(130, 170, 210),
+        0 0 5px rgb(130, 170, 210);
     transition: all 0.2s;
 }
 
 code,
 code i {
-    background-color: rgb(31, 31, 31);
-    color: rgb(250, 179, 135);
+    background-color: rgb(35, 35, 55);
+    color: rgb(170, 190, 220);
     padding: 0.1em 0.2em;
     border-radius: 6px;
     font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
@@ -163,48 +163,48 @@ code i {
 code:hover {
     padding: 0.2em 0.4em;
     cursor: pointer;
-    box-shadow: 0 0 4px 2px rgba(255, 255, 100, 0.7);
+    box-shadow: 0 0 4px 2px rgba(120, 140, 180, 0.6);
     user-select: text;
     transition: all 0.2s;
 }
 
 code b,
 b code {
-    color: lch(59.79% 52.36 56);
+    color: lch(55% 52.36 240);
 }
 
 code b:hover {
-    color: rgb(234, 223, 102);
+    color: rgb(160, 180, 210);
 }
 
 pre {
-    background-color: rgb(56, 53, 44);
+    background-color: rgb(40, 40, 60);
     padding: 0.75em 0.35em;
     margin: 1rem 1rem;
     border-radius: 6px;
     overflow-x: auto;
-    box-shadow: 0 0 10px 5px rgba(255, 255, 100, 0.5);
+    box-shadow: 0 0 10px 5px rgba(120, 140, 180, 0.4);
     font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
     user-select: text;
-    color: rgb(215, 215, 215);
+    color: rgb(180, 185, 200);
 }
 
 pre code {
-    color: rgb(211, 169, 18);
+    color: rgb(150, 170, 200);
 }
 
 pre:hover {
     padding: 0.8em 0.7em;
     cursor: pointer;
-    box-shadow: 0 0 15px 10px rgba(255, 255, 100, 0.7);
+    box-shadow: 0 0 15px 10px rgba(120, 140, 180, 0.6);
     transition: all 0.2s;
 }
 
 blockquote {
-    border-left: 4px solid rgb(191, 165, 255);
+    border-left: 4px solid rgb(120, 100, 170);
     padding-left: 1em;
     margin-left: 0;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -216,12 +216,12 @@ ul:hover,
 ol:hover,
 ul ul:hover,
 ol ol:hover {
-    background-color: rgba(255, 255, 255, 0.06);
+    background-color: rgba(255, 255, 255, 0.05);
     transition: all 0.2s;
 }
 
 button {
-    background-color: rgb(107, 33, 168);
+    background-color: rgb(80, 60, 130);
     color: white;
     padding: 12px 24px;
     border: none;
@@ -229,15 +229,15 @@ button {
     font-size: 16px;
     font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
     cursor: pointer;
-    box-shadow: 0 0 8px rgb(192, 132, 252), 0 0 16px rgb(192, 132, 252);
+    box-shadow: 0 0 8px rgb(140, 120, 200), 0 0 16px rgb(140, 120, 200);
     transition: all 0.2s ease-in-out;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
 }
 
 button:hover {
-    box-shadow: 0 0 12px rgb(233, 213, 255), 0 0 24px rgb(233, 213, 255);
-    background-color: rgb(126, 34, 206);
+    box-shadow: 0 0 12px rgb(160, 140, 220), 0 0 24px rgb(160, 140, 220);
+    background-color: rgb(95, 75, 145);
     transform: scale(1.05);
 }
 
@@ -245,7 +245,7 @@ ul {
     padding-left: 1.5em;
     margin: 1em 0;
     font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -255,7 +255,7 @@ ol {
     padding-left: 3em;
     margin: 1em 0;
     font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -285,8 +285,8 @@ input[type='checkbox'],
 input[type='checkbox'] {
     width: 20px;
     height: 20px;
-    border: 2px solid #28005c;
-    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgb(70, 60, 120);
+    background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
     position: relative;
     appearance: none;
@@ -296,7 +296,7 @@ input[type='checkbox'] {
 }
 
 input[type='checkbox']:checked {
-    background-color: rgb(61, 0, 182);
+    background-color: rgb(90, 70, 150);
 }
 
 input[type='checkbox']:checked::after {
@@ -309,7 +309,7 @@ input[type='checkbox']:checked::after {
 }
 
 input[type='checkbox']:hover {
-    background-color: #4800ff;
+    background-color: rgb(110, 90, 170);
 }
 
 .hidden {
@@ -320,7 +320,7 @@ input[type='checkbox']:hover {
 hr {
     border: none;
     height: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 2px;
     margin: 2em 0;
 }
@@ -328,7 +328,7 @@ hr {
 .container {
     max-width: 50%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
