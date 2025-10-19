@@ -3,11 +3,31 @@
 <head>
     <title>Proto-Lanzavel</title>
     <link rel="stylesheet" href="../styles.css" />
+    <style>
+        body {
+            margin-left: 550px;
+        }
+    </style>
 </head>
 <body>
-    <a href="https://lanzoor.github.io/conlangs/" id="portal">&lt; Go back to conlangs page</a>
+    <div class="sidebar">
+        <a href="https://lanzoor.github.io/conlangs/" class="portal-info"><- Go back to conlangs page</a>
+        <ul>
+            <li class="h0">
+                <a href="#proto-lanzavel">Introduction</a>
+            </li>
+            <li class="h1">
+                <a href="#phonetics-phonology">Phonetics and Phonology</a>
+                <ul>
+                    <li class="h2"><a href="#vowels">Vowels</a></li>
+                    <li class="h2"><a href="#vowel-clusters">Vowel Clusters</a></li>
+                    <li class="h2"><a href="#consonants">Consonants</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-    <h1>Proto-Lanzavel</h1>
+    <h1 id="proto-lanzavel">Proto-Lanzavel</h1>
 
     <p>
         Welcome to my conlang! This is <b>Proto-Lanzavel</b>, which is a more ancient version of the modern Lanzavel language.<br>
@@ -16,7 +36,7 @@
         Lanzavel is supposed to be a minimalist conlang that can also convey meaning.
     </p>
 
-    <h1>Phonetics / Phonology</h1>
+    <h1 id="phonetics-phonology">Phonetics and Phonology</h1>
 
     <!--
     <ul>
@@ -528,7 +548,11 @@
     </ul>
     -->
 
-    <h2>Vowels</h2>
+    <h2 id="vowels">Vowels</h2>
+
+    <p>
+        Vowels change their pronunciation if they are a part of a vowel cluster.
+    </p>
 
     <table>
         <thead>
@@ -543,42 +567,60 @@
             <tr>
                 <th>Aa</th>
                 <td>aref</td>
-                <td>[ɑ]</td>
-                <td></td>
+                <td>[a]</td>
+                <td>becomes [ɑ] in vowel clusters to ease pronunciation</td>
             </tr>
             <tr>
                 <th>Ee</th>
                 <td>eref</td>
-                <td>[ɛ]</td>
-                <td></td>
+                <td>[e]</td>
+                <td>becomes [ɛ] in vowel clusters</td>
             </tr>
             <tr>
                 <th>Ii</th>
                 <td>iref</td>
                 <td>[i]</td>
-                <td></td>
+                <td>becomes [ɪ] in vowel clusters<br><b>*a vowel cluster doesn't start with <code>Ii</code>, use <code>Jj</code> instead</b></td>
             </tr>
             <tr>
                 <th>Oo</th>
                 <td>oref</td>
                 <td>[o]</td>
-                <td></td>
+                <td>becomes [ɔ] in vowel clusters</td>
             </tr>
             <tr>
                 <th>Uu</th>
                 <td>uref</td>
                 <td>[u]</td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>Öö</th>
-                <td>öref</td>
-                <td>[œ]</td>
-                <td></td>
+                <td>becomes [ʊ] in vowel clusters<br><b>*a vowel cluster doesn't start with <code>Uu</code>, use <code>Ww</code> instead</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>Vowel Clusters</h2>
+    <h2 id="vowel-clusters">Vowel Clusters</h2>
+
+    <p>
+        <b><i>A vowel cluster is defined as two or more vowels together in the same syllable, and a vowel cluster is considered as one vowel.</i></b><br>
+        Vowel clusters are pronounced very straight-forwardly.<br>
+        You just follow the new pronunciation for vowel clusters, and you are good to do.<br>
+        However, <b>there is a very important rule, though;</b>
+        <b>a vowel cluster can't start in <code>Ii</code> or <code>Uu</code>.</b>
+        It is always replaced by <code>Jj</code> (for <code>Ii</code>) and <code>Ww</code> (for <code>Uu</code>).<br>
+        <b>This also works in vice-versa; the consonants <code>Jj</code> and <code>Ww</code> can't be used inside vowel clusters,</b>
+        since they are already substituted by <code>Ii</code> and <code>Uu</code>.<br>
+
+        The separator (') can be used to separate a vowel cluster, making their pronunciation revert to their original pronunciation.<br>
+        Here is an example;<br><br>
+
+        <code>kael</code> (<code>/ˈkʰɑɛl/</code>), <code>ka'el</code> (<code>/ˈkʰaˌ.el/</code>)<br><br>
+
+        The separator also begins a new syllable, as seen here.
+    </p>
+
+    <h2 id="consonants">Consonants</h2>
+
+    <h2 id="consonant-clusters">Consonant Clusters</h2>
+
+    <h2 id="syllable-structure">Syllable Structure</h2>
 </body>
 </html>
