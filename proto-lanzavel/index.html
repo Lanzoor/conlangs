@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="../styles.css" />
     <style>
         body {
-            margin-left: 550px;
+            margin-left: 450px;
         }
     </style>
 </head>
 <body>
     <div class="sidebar">
-        <a href="https://lanzoor.github.io/conlangs/" class="portal-info"><- Go back to conlangs page</a>
+        <a href="https://lanzoor.github.io/conlangs/" class="conlang-portal-info"><- Go back to conlangs page</a>
         <ul>
             <li class="h0">
                 <a href="#proto-lanzavel">Introduction</a>
@@ -39,271 +39,6 @@
     <h1 id="phonetics-phonology">Phonetics and Phonology</h1>
 
     <!--
-    <ul>
-        <li>
-            <code>[C]</code> and <code>[V]</code> accordingly mean consonants and vowels, and is used for situations where pronunciation is altered depending on syllable structure.
-        </li>
-        <li>
-            <b>Red</b> table areas indicate diphthongs / consonant clusters that alter pronunciation.
-        </li>
-    </ul>
-
-    <h3>Vowels</h3>
-
-    <table style="width: 50%; table-layout: fixed">
-        <thead>
-            <tr>
-                <th rowspan="2" colspan="2">Height ↓<br />Backness →</th>
-                <th rowspan="2" colspan="2">Front</th>
-                <th rowspan="2" colspan="2">Near-Front</th>
-                <th rowspan="2" colspan="2">Mid</th>
-                <th rowspan="2" colspan="2">Near-Open</th>
-                <th rowspan="2" colspan="2">Open</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th colspan="2">Close</th>
-                <td></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Near-Close</th>
-                <td colspan="2"></td>
-                <td></td>
-                <td><br /><br /></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Close-Mid</th>
-                <td><br /><br /></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Mid</th>
-                <td colspan="4"></td>
-                <td colspan="2"></td>
-                <td colspan="4"></td>
-            </tr>
-            <tr>
-                <th colspan="2">Open-Mid</th>
-                <td></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Near-Open</th>
-                <td></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td colspan="4"></td>
-            </tr>
-            <tr>
-                <th colspan="2">Open</th>
-                <td></td>
-                <td></td>
-                <td colspan="2"></td>
-                <td colspan="2"></td>
-                <td colspan="2"></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>Consonants</h3>
-
-    <table style="width: 90%; text-align: center; table-layout: fixed">
-        <thead>
-            <tr>
-                <th rowspan="2" colspan="2">Manner ↓<br />Place →</th>
-                <th rowspan="2" colspan="2">Bila-<br />bial</th>
-                <th rowspan="2" colspan="2">Labio-<br />dental</th>
-                <th rowspan="2" colspan="2">Dental</th>
-                <th rowspan="2" colspan="2">Alve-<br />olar</th>
-                <th rowspan="2" colspan="2">Alveolo-<br />palatal</th>
-                <th rowspan="2" colspan="2">Pala-<br />tal</th>
-                <th rowspan="2" colspan="2">Velar</th>
-                <th rowspan="2" colspan="2">Labio-velar</th>
-                <th rowspan="2" colspan="2">Glot-<br />tal</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th colspan="2">Plosive</th>
-                <td>[pʰ]<br /><b>p</b></td>
-                <td>[b]<br /><b>b</b></td>
-                <td></td>
-                <td></td>
-                <td colspan="3" style="text-align: right; padding-right: 25px">[tʰ]<br /><b>t</b></td>
-                <td>[d]<br /><b>d</b></td>
-                <td></td>
-                <td></td>
-                <td>[c]<br /><b>q</b></td>
-                <td></td>
-                <td>[kʰ]<br /><b>k</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Nasal</th>
-                <td></td>
-                <td>[m]<br /><b>m</b></td>
-                <td></td>
-                <td></td>
-                <td colspan="3" style="text-align: right; padding-right: 25px"></td>
-                <td>[n]<br /><b>n</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td id="inverted">[ŋ]<br /><b>ng</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Tap or Flap</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td colspan="3" style="text-align: right; padding-right: 25px"></td>
-                <td>[ɾ]<br /><b>r</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Fricative</th>
-                <td></td>
-                <td></td>
-                <td>[f]<br /><b>f</b></td>
-                <td>[v]<br /><b>v</b></td>
-                <td>[θ]<br /><b>θ</b></td>
-                <td>[ð]<br /><b>ð</b></td>
-                <td>[s]<br /><b>c</b></td>
-                <td>[z]<br /><b>z</b></td>
-                <td>[ɕ]<br /><b>s</b></td>
-                <td>[ʑ]<br /><b>ζ</b></td>
-                <td id="inverted">[ç]<br /><b>ch</b></td>
-                <td></td>
-                <td>[x]<br /><b>x</b></td>
-                <td>[ɣ]<br /><b>g</b></td>
-                <td></td>
-                <td></td>
-                <td>[h]<br /><b>h</b></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Lateral Fricative</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td colspan="3" style="text-align: right; padding-right: 25px" id="inverted">[ɬ]<br /><b>sl</b></td>
-                <td id="inverted">[ɮ]<br /><b>zl</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Approximant</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td colspan="3" style="text-align: right; padding-right: 25px"></td>
-                <td id="inverted">[ɹ]<br /><b>r[C]</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[j]<br /><b>j</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>[w]<br /><b>w</b></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="2">Lateral Approximant</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td colspan="3" style="text-align: right; padding-right: 25px"><br /><b></b></td>
-                <td>[l]<br /><b>l</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <ul>
-        <li>Vowel Names: <code>[V]-rf</code></li>
-        <li>Consonant Names: <code>[C]-ef</code></li>
-        <li>
-            Capitalisation is only used for <b>brand names, location names, human names, the start of every sentence, and every word in a title (except particles)</b>
-        </li>
-        <li>Punctuation is same as in English</li>
-        <li>
-            The letter <code>Jj</code> is not used as a standalone consonant, <i>it only follows a vowel, or is followed by a vowel.</i>
-            <ul>
-                <li>kjl (incorrect) -&gt; kil (correct)</li>
-                <li>kje (correct), kej (correct), kjej (correct)</li>
-            </ul>
-        </li>
-    </ul>
-
     <h4>Accent</h4>
 
     <blockquote>
@@ -550,10 +285,6 @@
 
     <h2 id="vowels">Vowels</h2>
 
-    <p>
-        Vowels change their pronunciation if they are a part of a vowel cluster.
-    </p>
-
     <table>
         <thead>
             <tr>
@@ -568,56 +299,141 @@
                 <th>Aa</th>
                 <td>aref</td>
                 <td>[a]</td>
-                <td>becomes [ɑ] in vowel clusters to ease pronunciation</td>
+                <td></td>
             </tr>
             <tr>
                 <th>Ee</th>
                 <td>eref</td>
                 <td>[e]</td>
-                <td>becomes [ɛ] in vowel clusters</td>
+                <td></td>
             </tr>
             <tr>
                 <th>Ii</th>
                 <td>iref</td>
                 <td>[i]</td>
-                <td>becomes [ɪ] in vowel clusters<br><b>*a vowel cluster doesn't start with <code>Ii</code>, use <code>Jj</code> instead</b></td>
+                <td></td>
             </tr>
             <tr>
                 <th>Oo</th>
                 <td>oref</td>
                 <td>[o]</td>
-                <td>becomes [ɔ] in vowel clusters</td>
+                <td></td>
             </tr>
             <tr>
                 <th>Uu</th>
                 <td>uref</td>
                 <td>[u]</td>
-                <td>becomes [ʊ] in vowel clusters<br><b>*a vowel cluster doesn't start with <code>Uu</code>, use <code>Ww</code> instead</td>
+                <td></td>
             </tr>
         </tbody>
     </table>
+
+    <blockquote>
+        Vowel name in Proto-Lanzavel: <code>[V]</code>ref
+    </blockquote>
 
     <h2 id="vowel-clusters">Vowel Clusters</h2>
 
     <p>
         <b><i>A vowel cluster is defined as two or more vowels together in the same syllable, and a vowel cluster is considered as one vowel.</i></b><br>
         Vowel clusters are pronounced very straight-forwardly.<br>
-        You just follow the new pronunciation for vowel clusters, and you are good to do.<br>
-        However, <b>there is a very important rule, though;</b>
-        <b>a vowel cluster can't start in <code>Ii</code> or <code>Uu</code>.</b>
-        It is always replaced by <code>Jj</code> (for <code>Ii</code>) and <code>Ww</code> (for <code>Uu</code>).<br>
-        <b>This also works in vice-versa; the consonants <code>Jj</code> and <code>Ww</code> can't be used inside vowel clusters,</b>
-        since they are already substituted by <code>Ii</code> and <code>Uu</code>.<br>
 
-        The separator (') can be used to separate a vowel cluster, making their pronunciation revert to their original pronunciation.<br>
+        The separator (') can be used to separate a vowel cluster.<br>
         Here is an example;<br><br>
 
-        <code>kael</code> (<code>/ˈkʰɑɛl/</code>), <code>ka'el</code> (<code>/ˈkʰaˌ.el/</code>)<br><br>
+        <code>kael</code> (<code>/ˈkʰael/</code>), <code>ka'el</code> (<code>/ˈkʰaˌ.el/</code>)<br><br>
 
         The separator also begins a new syllable, as seen here.
     </p>
 
     <h2 id="consonants">Consonants</h2>
+
+    <table>
+        <thead>
+            <th>Character</th>
+            <th>Character Name in Lanzavel</th>
+            <th>IPA Pronunciation(s)</th>
+            <th>Information</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Bb</th>
+                <td>bef</td>
+                <td>[b]</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Cc</th>
+                <td>cef</td>
+                <td>[c]</td>
+                <td>can be pronounced stronger and with aspiration on onsets</td>
+            </tr>
+            <tr>
+                <th>Dd</th>
+                <td>def</td>
+                <td>[d]</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Ff</th>
+                <td>fef</td>
+                <td>[ɸ]</td>
+                <td>bilabial variant of [f]<br>also can be pronounced with aspiration on onsets</td>
+            </tr>
+            <tr>
+                <th>Gg</th>
+                <td>gef</td>
+                <td>[g]</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Hh</th>
+                <td>hef</td>
+                <td>[x]</td>
+                <td>velar [h]</td>
+            </tr>
+            <tr>
+                <th>Jj</th>
+                <td>jef</td>
+                <td>[j]</td>
+                <td><b>can't be used as a vowel, use <code>Ii</code> instead</b><br>must be followed by or be followed by a vowel<br><code>kjl</code> is invalid while <code>kil</code>, <code>kjil</code>, <code>kijl</code> and <code>kjijl</code> is fine</td>
+            </tr>
+            <tr>
+                <th>Kk</th>
+                <td>kef</td>
+                <td>[k]</td>
+                <td>can be pronounced with aspiration on onsets</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Ll</th>
+                <td rowspan="2">lef</td>
+                <td>[l]</td>
+                <td>when in consonant clusters</td>
+            </tr>
+            <tr>
+                <td>[ʟ]</td>
+                <td>when on onsets / codas <b>alone</b></td>
+            </tr>
+            <tr>
+                <th>Mm</th>
+                <td>mef</td>
+                <td>[m]</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Nn</th>
+                <td>nef</td>
+                <td>[n]</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Pp</th>
+                <td>pef</td>
+                <td>[p]</td>
+                <td>can be pronounced with aspiration on onsets</td>
+            </tr>
+        </tbody>
+    </table>
 
     <h2 id="consonant-clusters">Consonant Clusters</h2>
 

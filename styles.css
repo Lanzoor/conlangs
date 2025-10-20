@@ -43,7 +43,7 @@ td {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid rgb(100, 105, 130);
+    border: 2px solid rgb(100, 105, 130);
     border-collapse: collapse;
     padding: 10px;
     transition: all 0.2s;
@@ -102,6 +102,7 @@ h1 {
 h2 {
     color: rgb(105, 125, 165);
     text-shadow: 0 0 1px rgb(105, 125, 165), 0 0 2px rgb(105, 125, 165);
+    font-size: 22.5px;
 }
 
 th {
@@ -317,22 +318,12 @@ hr {
     margin: 2em 0;
 }
 
-.container {
-    max-width: 50%;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    font-size: 75%;
-}
-
 #portal {
     padding-left: 10px;
 }
 
 .sidebar {
-    width: 500px;
+    width: 400px;
     position: fixed;
     top: 0;
     left: 0;
@@ -351,7 +342,7 @@ hr {
     padding: 0.25rem 0.5rem;
 }
 
-.portal-info {
+.conlang-portal-info {
     margin-left: 0;
 }
 
@@ -367,6 +358,7 @@ hr {
     font-weight: bold;
     font-size: 20px;
 }
+
 .h2 {
     margin-left: 10px;
     font-size: 15px;
@@ -378,4 +370,39 @@ hr {
 .h4 {
     margin-left: 30px;
     font-size: 11px;
+}
+
+.conlang-status-discontinued {
+    color: #610000;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-planning {
+    color: #ff2323;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-indev {
+    color: #ff8a23;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-shaping {
+    color: #fffb23;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-finaldev {
+    color: #95ff23;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-completed {
+    color: #23e5ff;
+    text-shadow: 0 0 10px currentColor;
+}
+
+.conlang-status-archived {
+    color: #5623ff;
+    text-shadow: 0 0 10px currentColor;
 }
