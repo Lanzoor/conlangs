@@ -1,0 +1,408 @@
+body {
+    background-color: rgb(25, 25, 41);
+    font-family: 'FiraCode Nerd Font', 'JetBrains Mono', Consolas, monospace;
+    font-size: 17px;
+}
+
+* {
+    font-family: 'FiraCode Nerd Font', 'JetBrains Mono', Consolas, monospace;
+    text-shadow: 0.5px 0.5px 1px currentColor, 1px 1px 2px rgb(35, 35, 55);
+}
+
+p,
+sub,
+sup,
+td,
+ul,
+ol,
+blockquote,
+ul ul,
+ol ol {
+    color: rgb(180, 185, 200);
+}
+
+p {
+    padding-bottom: 7px;
+    padding-left: 1em;
+}
+
+i,
+b {
+    color: rgb(140, 145, 160);
+}
+
+b:hover {
+    color: rgb(200, 205, 220);
+    text-shadow: 0 0 1.25px currentColor, 0 0 2.5px currentColor, 0 0 5px currentColor;
+    transition: all 0.2s;
+}
+
+table,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid rgb(100, 105, 130);
+    border-collapse: collapse;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 4px 2px rgba(120, 125, 150, 0.5);
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+th:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 6px 4px rgba(120, 125, 150, 0.6);
+}
+
+#inverted {
+    background-color: rgba(75, 80, 105, 0.5);
+    color: rgb(160, 165, 180);
+}
+
+#inverted:hover {
+    background-color: rgb(85, 90, 115);
+    box-shadow: 0 0 8px 8px rgba(70, 75, 100, 0.6);
+    color: rgb(220, 225, 240);
+    transition: all 0.2s;
+}
+
+#inverted i,
+#inverted b {
+    color: rgb(120, 125, 140);
+    font-style: normal;
+}
+
+#inverted:hover i,
+#inverted:hover b {
+    color: rgb(180, 185, 200);
+    font-style: normal;
+    transition: all 0.2s;
+}
+
+h1 {
+    color: rgb(90, 110, 160);
+    text-shadow: 0 0 1px rgb(90, 110, 160), 0 0 2px rgb(90, 110, 160);
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(105, 125, 165);
+    text-shadow: 0 0 1px rgb(105, 125, 165), 0 0 2px rgb(105, 125, 165);
+    font-size: 22.5px;
+}
+
+th {
+    color: rgb(130, 150, 180);
+    text-shadow: 0 0 1px rgb(130, 150, 180), 0 0 2px rgb(130, 150, 180);
+}
+
+h3 {
+    color: rgb(80, 100, 140);
+    text-shadow: 0 0 1px rgb(80, 100, 140), 0 0 2px rgb(80, 100, 140);
+    font-size: 20px;
+}
+
+h4 {
+    color: rgb(70, 90, 130);
+    text-shadow: 0 0 0.5px rgb(70, 90, 130), 0 0 0.5px rgb(70, 90, 130);
+    font-size: 17.5px;
+    padding-left: 10px;
+}
+
+h1,
+h2,
+h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 0 0 1.25px rgb(110, 90, 170), 0 0 2.5px rgb(110, 90, 170), 0 0 5px rgb(110, 90, 170);
+    color: rgb(110, 90, 170);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(130, 170, 210);
+    text-shadow: 0 0 1.25px rgb(130, 170, 210), 0 0 2.5px rgb(130, 170, 210), 0 0 5px rgb(130, 170, 210);
+    transition: all 0.2s;
+}
+
+code,
+code i {
+    background-color: rgb(35, 35, 55);
+    color: rgb(170, 190, 220);
+    padding: 0.1em 0.2em;
+    border-radius: 6px;
+    font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+}
+
+code:hover {
+    padding: 0.2em 0.4em;
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px rgba(120, 140, 180, 0.6);
+    user-select: text;
+    transition: all 0.2s;
+}
+
+code b,
+b code {
+    color: lch(55% 52.36 240);
+}
+
+code b:hover {
+    color: rgb(160, 180, 210);
+}
+
+pre {
+    background-color: rgb(40, 40, 60);
+    padding: 0.75em 0.35em;
+    margin: 1rem 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    box-shadow: 0 0 10px 5px rgba(120, 140, 180, 0.4);
+    font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+    user-select: text;
+    color: rgb(180, 185, 200);
+}
+
+pre code {
+    color: rgb(150, 170, 200);
+}
+
+pre:hover {
+    padding: 0.8em 0.7em;
+    cursor: pointer;
+    box-shadow: 0 0 15px 10px rgba(120, 140, 180, 0.6);
+    transition: all 0.2s;
+}
+
+blockquote {
+    border-left: 4px solid rgb(120, 100, 170);
+    padding-left: 1em;
+    margin-left: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+}
+
+blockquote:hover,
+ul:hover,
+ol:hover,
+ul ul:hover,
+ol ol:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: all 0.2s;
+}
+
+button {
+    background-color: rgb(80, 60, 130);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(140, 120, 200), 0 0 16px rgb(140, 120, 200);
+    transition: all 0.2s ease-in-out;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+button:hover {
+    box-shadow: 0 0 12px rgb(160, 140, 220), 0 0 24px rgb(160, 140, 220);
+    background-color: rgb(95, 75, 145);
+    transform: scale(1.05);
+}
+
+ul {
+    padding-left: 1.5em;
+    margin: 1em 0;
+    font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ol {
+    padding-left: 3em;
+    margin: 1em 0;
+    font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+li {
+    margin-right: 1em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    line-height: 1.6;
+}
+
+ul ul,
+ol ol {
+    list-style-type: circle;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+
+input[type='checkbox'],
+#checkbox_wrapper {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(70, 60, 120);
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    position: relative;
+    appearance: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+input[type='checkbox']:checked {
+    background-color: rgb(90, 70, 150);
+}
+
+input[type='checkbox']:checked::after {
+    content: '✔';
+    position: absolute;
+    left: 4px;
+    top: -1px;
+    color: white;
+    font-size: 14px;
+}
+
+input[type='checkbox']:hover {
+    background-color: rgb(110, 90, 170);
+}
+
+.hidden {
+    display: none;
+    transform: all 0.5s;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    margin: 2em 0;
+}
+
+#portal {
+    padding-left: 10px;
+}
+
+.sidebar {
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: #111;
+    color: #eee;
+    padding: 1rem;
+}
+
+.sidebar a {
+    display: block;
+    color: #eee;
+    text-decoration: none;
+    margin: 0.25rem 0;
+    padding: 0.25rem 0.5rem;
+}
+
+.conlang-portal-info {
+    margin-left: 0;
+}
+
+.h0 {
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #c5c5ff;
+}
+
+.h1 {
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h2 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.h3 {
+    margin-left: 20px;
+    font-size: 13px;
+}
+.h4 {
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+.conlang-status-discontinued {
+    color: #610000;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-planning {
+    color: #ff2323;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-indev {
+    color: #ff8a23;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-shaping {
+    color: #fffb23;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-finaldev {
+    color: #95ff23;
+    text-shadow: 0 0 5px currentColor;
+}
+
+.conlang-status-completed {
+    color: #23e5ff;
+    text-shadow: 0 0 10px currentColor;
+}
+
+.conlang-status-archived {
+    color: #5623ff;
+    text-shadow: 0 0 10px currentColor;
+}
