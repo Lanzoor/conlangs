@@ -22,6 +22,9 @@
                     <li class="h2"><a href="#vowels">Vowels</a></li>
                     <li class="h2"><a href="#vowel-clusters">Vowel Clusters</a></li>
                     <li class="h2"><a href="#consonants">Consonants</a></li>
+                    <li class="h2"><a href="#consonant-clusters">Consonant Clusters</a></li>
+                    <li class="h2"><a href="#syllable-structure">Syllable Structure</a></li>
+                    <li class="h2"><a href="#writing-extra-rules">Capitallization, Punctuation and more</a></li>
                 </ul>
             </li>
         </ul>
@@ -32,8 +35,9 @@
     <p>
         Welcome to my conlang! This is <b>Proto-Lanzavel</b>, which is a more ancient version of the modern Lanzavel language.<br>
         This is <b>not a document for those who wants to study the language.</b> It's a basic foundation of the conlang.<br>
-        Once this language gets out of the proto status, it will be adjusted to new learners. But for now, there may be mistakes, inconsistencies, and variable information.<br>
-        Lanzavel is supposed to be a minimalist conlang that can also convey meaning.
+        Once this language gets out of the development status, it will be adjusted to new learners. But for now, there may be mistakes, inconsistencies, and variable information.<br>
+        Lanzavel is supposed to be a minimalist conlang that can also somewhat convey meaning.<br>
+        It's similar in structure as of in Japanese since it's a pro-drop and SOV language, but uses the Latin script.<br>
     </p>
 
     <h1 id="phonetics-phonology">Phonetics and Phonology</h1>
@@ -297,51 +301,76 @@
         <tbody>
             <tr>
                 <th>Aa</th>
-                <td>aref</td>
-                <td>[a]</td>
+                <td><code>aref</code></td>
+                <td><i>[a]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Ee</th>
-                <td>eref</td>
-                <td>[e]</td>
+                <td><code>eref</code></td>
+                <td><i>[e]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Ii</th>
-                <td>iref</td>
-                <td>[i]</td>
+                <td><code>iref</code></td>
+                <td><i>[i]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Oo</th>
-                <td>oref</td>
-                <td>[o]</td>
+                <td><code>oref</code></td>
+                <td><i>[o]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Uu</th>
-                <td>uref</td>
-                <td>[u]</td>
+                <td><code>uref</code></td>
+                <td><i>[u]</i></td>
                 <td></td>
             </tr>
         </tbody>
     </table>
 
     <blockquote>
-        Vowel name in Proto-Lanzavel: <code>[V]</code>ref
+        Vowel names in Proto-Lanzavel: <code>[V]</code>ref
     </blockquote>
 
     <h2 id="vowel-clusters">Vowel Clusters</h2>
 
     <p>
-        <b><i>A vowel cluster is defined as two or more vowels together in the same syllable, and a vowel cluster is considered as one vowel.</i></b><br>
-        Vowel clusters are pronounced very straight-forwardly.<br>
+        <b><i>A vowel cluster is defined as two vowels together in the same syllable.</i></b><br>
+        <b>Only up to two vowels are considered a vowel cluster. Three or more vowels in a vowel cluster are deemed new syllables.</b>
+        Vowel clusters are pronounced very straight-forwardly. No vowel cluster makes an irregular pronunciation, except for the examples below;<br>
+    </p>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Vowel Cluster</th>
+                <th>IPA Pronunciation(s)</th>
+                <th>Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>ae</th>
+                <td><i>[æ]</i></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>oe</th>
+                <td><i>[œ]</i></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
         The separator (') can be used to separate a vowel cluster.<br>
         Here is an example;<br><br>
 
-        <code>kael</code> (<code>/ˈkʰael/</code>), <code>ka'el</code> (<code>/ˈkʰaˌ.el/</code>)<br><br>
+        <code>kael</code> (<i>/ˈkʰæl/</i>), <code>ka'el</code> (<i>/ˈkʰaˌ.el/</i>)<br><br>
 
         The separator also begins a new syllable, as seen here.
     </p>
@@ -358,85 +387,183 @@
         <tbody>
             <tr>
                 <th>Bb</th>
-                <td>bef</td>
-                <td>[b]</td>
+                <td><code>bef</code></td>
+                <td><i>[b]</i></td>
                 <td></td>
             </tr>
             <tr>
-                <th>Cc</th>
-                <td>cef</td>
-                <td>[c]</td>
-                <td>can be pronounced stronger and with aspiration on onsets</td>
-            </tr>
-            <tr>
                 <th>Dd</th>
-                <td>def</td>
-                <td>[d]</td>
+                <td><code>def</code></td>
+                <td><i>[d]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Ff</th>
-                <td>fef</td>
-                <td>[ɸ]</td>
+                <td><code>fef</code></td>
+                <td><i>[ɸ]</i></td>
                 <td>bilabial variant of [f]<br>also can be pronounced with aspiration on onsets</td>
             </tr>
             <tr>
                 <th>Gg</th>
-                <td>gef</td>
-                <td>[g]</td>
+                <td><code>gef</code></td>
+                <td><i>[g]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Hh</th>
-                <td>hef</td>
-                <td>[x]</td>
-                <td>velar [h]</td>
+                <td><code>hef</code></td>
+                <td><i>[x]</i></td>
+                <td>velar <i>[h]</i></td>
             </tr>
             <tr>
                 <th>Jj</th>
-                <td>jef</td>
-                <td>[j]</td>
-                <td><b>can't be used as a vowel, use <code>Ii</code> instead</b><br>must be followed by or be followed by a vowel<br><code>kjl</code> is invalid while <code>kil</code>, <code>kjil</code>, <code>kijl</code> and <code>kjijl</code> is fine</td>
+                <td><code>jef</code></td>
+                <td><i>[j]</i></td>
+                <td><b>can't be used as a vowel, use <code>Ii</code> instead</b><br>must follow a vowel<br><code>kjl</code>, <code>kijl</code> and <code>kjijl</code> is invalid while <code>kil</code> and <code>kjil</code> is fine</td>
             </tr>
             <tr>
                 <th>Kk</th>
-                <td>kef</td>
-                <td>[k]</td>
+                <td><code>kef</code></td>
+                <td><i>[k]</i></td>
                 <td>can be pronounced with aspiration on onsets</td>
             </tr>
             <tr>
-                <th rowspan="2">Ll</th>
-                <td rowspan="2">lef</td>
-                <td>[l]</td>
-                <td>when in consonant clusters</td>
+                <th>Ll</th>
+                <td><code>lef</code></td>
+                <td><i>[l]</i></td>
+                <td></td>
             </tr>
             <tr>
-                <td>[ʟ]</td>
-                <td>when on onsets / codas <b>alone</b></td>
             </tr>
             <tr>
                 <th>Mm</th>
-                <td>mef</td>
-                <td>[m]</td>
+                <td><code>mef</code></td>
+                <td><i>[m]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Nn</th>
-                <td>nef</td>
-                <td>[n]</td>
+                <td><code>nef</code></td>
+                <td><i>[n]</i></td>
                 <td></td>
             </tr>
             <tr>
                 <th>Pp</th>
-                <td>pef</td>
-                <td>[p]</td>
+                <td><code>pef</code></td>
+                <td><i>[p]</i></td>
                 <td>can be pronounced with aspiration on onsets</td>
+            </tr>
+            <tr>
+                <th>Rr</th>
+                <td><code>ref</code></td>
+                <td><i>[ɾ]</i></td>
+                <td>flapped <i>[r]</i></td>
+            </tr>
+            <tr>
+                <th>Cc</th>
+                <td><code>cef</code></td>
+                <td><i>[c]</i></td>
+                <td>can be pronounced stronger and with aspiration on onsets</td>
+            </tr>
+            <tr>
+                <th>Ss</th>
+                <td><code>sef</code></td>
+                <td><i>[ɕ]</i></td>
+                <td>palatallized <i>[ʃ]</i></td>
+            </tr>
+            <tr>
+                <th>Tt</th>
+                <td><code>tef</code></td>
+                <td><i>[t]</i></td>
+                <td>can be pronounced with aspiration on onsets</td>
+            </tr>
+            <tr>
+                <th>Vv</th>
+                <td><code>vef</code></td>
+                <td><i>[β]</i></td>
+                <td>bilabial allophone of <i>[v]</i></td>
+            </tr>
+            <tr>
+                <th>Ww</th>
+                <td><code>wef</code></td>
+                <td><i>[w]</i></td>
+                <td><b>can't be used as a vowel, use <code>Uu</code> instead</b><br>must follow a vowel<br><code>kwl</code>, <code>kwuwl</code> and <code>kuwl</code> is invalid while <code>kul</code> and <code>kwul</code> is fine</td>
+            </tr>
+            <tr>
+                <th>Zz</th>
+                <td><code>zef</code></td>
+                <td><i>[z]</i></td>
+                <td></td>
             </tr>
         </tbody>
     </table>
 
+    <blockquote>
+        Consonant names in Proto-Lanzavel: <code>[C]</code>ef
+    </blockquote>
+
     <h2 id="consonant-clusters">Consonant Clusters</h2>
 
+    <p>
+        There are no consonant clusters that are pronounced very differntly from their original pronunciation.<br>
+        <i>Except for the exceptions below and the, no new sounds are made in a consonant cluster.</i>
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Consonant Cluster</th>
+                <th>IPA Pronunciation(s)</th>
+                <th>Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>th</th>
+                <td><i>[θ]</i></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>dh</th>
+                <td><i>[ð]</i></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>zh</th>
+                <td><i>[ʑ]</i></td>
+                <td>palatallized <i>[ʒ]</i></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        The separator (') can also be used to indicate that a consonant cluster is separate.<br>
+        Here is an example;<br><br>
+
+        <code>kathel</code> (<i>/ˈkʰaˌ.θel/</i>), <code>kat'hel</code> (<i>/ˈkʰatʰˌ.xel</i>)
+    </p>
     <h2 id="syllable-structure">Syllable Structure</h2>
+
+    <p>
+        The syllable structure is usually the below in most cases;<br>
+
+        <pre><code>(C)(C)(L)(L)(V)V(C)(C)</code></pre>
+    </p>
+    <p>
+        Where;
+
+        <ul>
+            <li>
+                <code>[C]</code> is any consonant <i>except <code>Jj</code> and <code>Ww</code></i>
+            </li>
+            <li>
+                <code>[L]</code> is <code>Jj</code> or <code>Ww</code> but not simultaneously both
+            </li>
+            <li>
+                <code>[V]</code> is any vowel
+            </li>
+        </ul>
+    </p>
+    <h2 id="writing-extra-rules">Capitallization, Punctuation and more</h2>
 </body>
 </html>
