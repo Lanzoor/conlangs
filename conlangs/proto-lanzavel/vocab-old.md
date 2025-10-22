@@ -39,12 +39,12 @@
 -   1. [n.] globe
 -   2. [n.] Earth
 
--   **ynivaca**
+-   **ynivasa**
 
 -   1. [n.] universe, space
 -   2. [adj.] global, universal
 
--   **ecte**
+-   **este**
 
 -   1. [adj.] good, likeable
 -   2. [v.] to like, to cherish
@@ -58,13 +58,13 @@
 
 ## Verbs: Basic Actions
 
--   **senca**
+-   **sensa**
 
 -   1. [v.] to feel (emotionally or physically)
 -   2. [v.] to sense, to perceive
 -   3. [v.] to experience
 
--   **nyroca**
+-   **njurosa**
 
 -   1. [v.] to think
 -   2. [v.] to understand
@@ -81,7 +81,7 @@
 -   1. [v.] to eat, to consume (a solid)
 -   2. [v.] (in archaic, poetic occurrences) to drink (a liquid)
 
--   **peca**
+-   **pesa**
 
 -   1. [v.] to drink (a liquid)
 -   2. [v.] to swallow (a small object, usually with a liquid, includes medicines)
@@ -100,7 +100,7 @@
 
 -   1. [v.] to find, to come into vision
 
--   **eksicte**
+-   **eksiste**
 
 -   1. [v.] to exist
 -   2. [v.] to stand out, to appear, to be visible
@@ -120,7 +120,7 @@
 
 -   1. [v.] to subtract, to remove, to get rid of
 
--   **məltifa**
+-   **moltifa**
 
 -   1. [v.] to multiply
 
@@ -139,11 +139,11 @@
 
 -   1. [n.] color, spectra
 
--   **roxo**
+-   **roha**
 
 -   1. [adj.] red (the color)
 
--   **öranζa**
+-   **oranza**
 
 -   1. [adj.] orange (the color)
 -   2. [n.] orange (the fruit)
@@ -176,10 +176,10 @@
 
 -   1. [adj.] lots of, many (amount)
 
--   **cato**
+-   **sato**
 
 -   1. [adj.] small, tiny (size, existence)
 
--   **ceto**
+-   **seto**
 
 -   1. [adj.] a small amount of (amount)

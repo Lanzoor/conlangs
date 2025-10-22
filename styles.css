@@ -27,11 +27,13 @@ p {
 }
 
 i,
-b {
+b,
+strong {
     color: rgb(140, 145, 160);
 }
 
-b:hover {
+b:hover,
+strong:hover {
     color: rgb(200, 205, 220);
     text-shadow: 0 0 1.25px currentColor, 0 0 2.5px currentColor, 0 0 5px currentColor;
     transition: all 0.2s;
@@ -150,6 +152,7 @@ code i {
     color: rgb(170, 190, 220);
     padding: 0.1em 0.2em;
     border-radius: 6px;
+    border: 1px solid rgba(120, 140, 180, 0.6);
     font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
 }
 
@@ -162,11 +165,14 @@ code:hover {
 }
 
 code b,
-b code {
+b code,
+code strong,
+strong code {
     color: lch(55% 52.36 240);
 }
 
-code b:hover {
+code b:hover,
+code strong:hover {
     color: rgb(160, 180, 210);
 }
 
