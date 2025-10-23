@@ -343,7 +343,7 @@ hr {
     padding: 0.25rem 0.5rem;
 }
 
-.conlang-portal-info {
+.portal-info {
     margin-left: 0;
 }
 
@@ -373,37 +373,37 @@ hr {
     font-size: 11px;
 }
 
-.conlang-status-discontinued {
+.status-discontinued {
     color: #610000;
     text-shadow: 0 0 5px currentColor;
 }
 
-.conlang-status-planning {
+.status-planning {
     color: #ff2323;
     text-shadow: 0 0 5px currentColor;
 }
 
-.conlang-status-indev {
+.status-indev {
     color: #ff8a23;
     text-shadow: 0 0 5px currentColor;
 }
 
-.conlang-status-shaping {
+.status-shaping {
     color: #fffb23;
     text-shadow: 0 0 5px currentColor;
 }
 
-.conlang-status-finaldev {
+.status-finaldev {
     color: #95ff23;
     text-shadow: 0 0 5px currentColor;
 }
 
-.conlang-status-completed {
+.status-completed {
     color: #23e5ff;
     text-shadow: 0 0 10px currentColor;
 }
 
-.conlang-status-archived {
+.status-archived {
     color: #5623ff;
     text-shadow: 0 0 10px currentColor;
 }
