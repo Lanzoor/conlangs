@@ -148,8 +148,9 @@ a:hover {
 
 code,
 code i {
+    color: rgb(180, 220, 180);
+    border: 1px solid rgba(140, 180, 140, 0.6);
     background-color: rgb(35, 35, 55);
-    color: rgb(170, 190, 220);
     padding: 0.1em 0.2em;
     border-radius: 6px;
     border: 1px solid rgba(120, 140, 180, 0.6);
@@ -168,12 +169,12 @@ code b,
 b code,
 code strong,
 strong code {
-    color: lch(55% 52.36 240);
+    color: lch(65% 52.36 135);
 }
 
 code b:hover,
 code strong:hover {
-    color: rgb(160, 180, 210);
+    color: rgb(200, 230, 200);
 }
 
 pre {

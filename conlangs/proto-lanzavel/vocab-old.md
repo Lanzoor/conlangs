@@ -183,3 +183,11 @@
 -   **seto**
 
 -   1. [adj.] a small amount of (amount)
+
+-   **norma**
+
+-   1. [adj.] normal
+
+-   **forte**
+
+-   1. [adj.] strong, tough
