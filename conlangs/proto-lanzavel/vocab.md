@@ -39,16 +39,10 @@
 -   1. [n.] globe
 -   2. [n.] Earth
 
--   **ynivasa**
+-   **ynivaca**
 
 -   1. [n.] universe, space
 -   2. [adj.] global, universal
-
--   **este**
-
--   1. [adj.] good, likeable
--   2. [v.] to like, to cherish
--   3. [v.] to love (in certain contexts)
 
 -   **ruta**
 
@@ -56,9 +50,13 @@
 -   2. [n.] root
 -   3. [n.] the square root function in math
 
+-   **filmoc**
+
+-   1. [n.] film, movie
+
 ## Verbs: Basic Actions
 
--   **sensa**
+-   **senca**
 
 -   1. [v.] to feel (emotionally or physically)
 -   2. [v.] to sense, to perceive
@@ -81,7 +79,7 @@
 -   1. [v.] to eat, to consume (a solid)
 -   2. [v.] (in archaic, poetic occurrences) to drink (a liquid)
 
--   **pesa**
+-   **peca**
 
 -   1. [v.] to drink (a liquid)
 -   2. [v.] to swallow (a small object, usually with a liquid, includes medicines)
@@ -100,7 +98,7 @@
 
 -   1. [v.] to find, to come into vision
 
--   **eksiste**
+-   **eksice**
 
 -   1. [v.] to exist
 -   2. [v.] to stand out, to appear, to be visible
@@ -176,11 +174,11 @@
 
 -   1. [adj.] lots of, many (amount)
 
--   **sato**
+-   **cjato**
 
 -   1. [adj.] small, tiny (size, existence)
 
--   **seto**
+-   **cjeto**
 
 -   1. [adj.] a small amount of (amount)
 
@@ -191,3 +189,11 @@
 -   **forte**
 
 -   1. [adj.] strong, tough
+
+## Adjectives: Verb-Adjectives
+
+-   **ecte**
+
+-   1. [adj.] good, likeable
+-   2. [v.] to like, to cherish
+-   3. [v.] to love (in certain contexts)
