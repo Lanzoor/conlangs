@@ -84,7 +84,7 @@
 -   1. [v.] to drink (a liquid)
 -   2. [v.] to swallow (a small object, usually with a liquid, includes medicines)
 
--   **ixer**
+-   **iher**
 
 -   1. [v.] to go
 
@@ -94,7 +94,7 @@
 -   2. [v.] to look (at)
 -   3. [v.] to watch
 
--   **xletar**
+-   **hletar**
 
 -   1. [v.] to find, to come into vision
 
@@ -159,6 +159,24 @@
 
 -   1. [adj.] blue (the color)
 
+-   **vileto**
+
+-   1. [adj.] purple, violet (the color)
+
+-   **blanka**
+
+-   1. [adj.] light (used with other color adjectives)
+-   2. [adj.] light
+-   3. [adj.] white (the color)
+
+-   **negra**
+
+-   1. [adj.] dark (used with other color adjectives)
+-   2. [adj.] dark
+-   3. [adj.] black (the color)
+
+> Gray (grey) -> `blanka-negra` / `negra-blanka`, Pink (light+red) -> `blanka-roha`
+
 ## Adjectives: Amount
 
 -   **amonto**
@@ -190,6 +208,10 @@
 
 -   1. [adj.] strong, tough
 
+-   **zarke**
+
+-   1. [adj.] weak, pity, small
+
 ## Adjectives: Verb-Adjectives
 
 -   **ecte**
@@ -197,3 +219,8 @@
 -   1. [adj.] good, likeable
 -   2. [v.] to like, to cherish
 -   3. [v.] to love (in certain contexts)
+
+-   **kracte**
+
+-   1. [adj.] bad, hatable
+-   2. [v.] to hate, to despise against
