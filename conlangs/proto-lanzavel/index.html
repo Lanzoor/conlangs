@@ -20,8 +20,8 @@
                 <a href="#phonetics-phonology">Phonetics and Phonology</a>
                 <ul>
                     <li class="h2"><a href="#vowels">Vowels</a></li>
-                    <li class="h2"><a href="#vowel-clusters">Vowel Clusters</a></li>
                     <li class="h2"><a href="#consonants">Consonants</a></li>
+                    <li class="h2"><a href="#clusters">Letter Clusters</a></li>
                     <li class="h2"><a href="#syllable-structure">Syllable Structure</a></li>
                     <li class="h2"><a href="#writing-extra-rules">Capitalization, Punctuation and more</a></li>
                 </ul>
@@ -32,6 +32,7 @@
                     <li class="h2"><a href="#pronouns">Pronouns</a></li>
                     <ul>
                         <li class="h3"><a href="#personal-pronouns">Personal Pronouns</a></li>
+                        <li class="h3"><a href="#demonstrative">Demonstrative Pronouns and Adjectives</a></li>
                     </ul>
                 </ul>
             </li>
@@ -46,6 +47,7 @@
         Once this language gets out of the development status, it will be adjusted to new learners. But for now, there may be mistakes, inconsistencies, and variable information.<br>
         Lanzavel is supposed to be a minimalist conlang that can also somewhat convey meaning.<br>
         It's similar in structure as of in Japanese since it's a pro-drop and SOV language, but uses the Latin script.<br>
+        <b>Since this is just a basic foundation of the language, a basic knowledge of linguistic terms are expected but not required.</b>
     </p>
 
     <h1 id="phonetics-phonology">Phonetics and Phonology</h1>
@@ -256,46 +258,6 @@
         Vowel names in Proto-Lanzavel: <code>[V]</code>ref
     </blockquote>
 
-    <h2 id="vowel-clusters">Vowel Clusters</h2>
-
-    <p>
-        <b><i>A vowel cluster is defined as two vowels together in the same syllable.</i></b><br>
-        <b>Only up to two vowels are considered a vowel cluster.</b><br>
-        Three or more vowels in a vowel cluster are deemed new syllables, and the separator <i>must</i> be used for those cases.<br>
-        Vowel clusters are pronounced very straight-forwardly. No vowel cluster makes an irregular pronunciation, except for the examples below;<br>
-    </p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Vowel Cluster</th>
-                <th>IPA Pronunciation(s)</th>
-                <th>Information</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>ae</th>
-                <td><i>[æ]</i></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>oe</th>
-                <td><i>[œ]</i></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p>
-        The separator (') can be used to separate a vowel cluster, and must be used when three or more vowels are in a single vowel cluster.<br>
-        Here is an example;<br><br>
-
-        <code>kael</code> (<i>/ˈkʰæl/</i>), <code>ka'el</code> (<i>/ˈkʰaˌ.el/</i>)<br><br>
-
-        The separator also begins a new syllable, as seen here.
-    </p>
-
     <h2 id="consonants">Consonants</h2>
 
     <table>
@@ -421,8 +383,25 @@
 
     <blockquote>
         Consonant names in Proto-Lanzavel: <code>[C]</code>ef<br>
-        <i>No new sounds are made in a consonant cluster.</i>
     </blockquote>
+
+    <h2 id="clusters">Letter Clusters</h2>
+
+    <p>
+        <b>For vowel clusters, since two or more vowels can't be together in the same syllable, the separator <code>'</code> is used to differentiate them.</b><br>
+        For example, <code>kiel</code> is invalid, so you would either need to fix it to <code>ki'el</code> or <code>kjel</code>.<br>
+        There are some consonant clusters that modify pronunciation, but they are just there to <b>ease pronunciation</b>.<br>
+        <b>Other than the cases listed below, no new sounds are created in a consonant cluster.</b>
+    </p>
+
+    <ul>
+        <li>
+            <code>Nn</code> before any of the consonants listed below make the <code>Nn</code> sound like <i>/ŋ/</i>;<br>
+            - <code>Gg</code>, <code>Kk</code><br>
+            So, the consonant cluster <code>nk</code> would be pronounced <i>/ŋkʰ/</i>.
+        </li>
+    </ul>
+
 
     <h2 id="syllable-structure">Syllable Structure</h2>
 
@@ -430,23 +409,23 @@
         The syllable structure is usually the below in most cases;<br>
     </p>
 
-    <pre><code>(C)(C)(L)(L)(V)V(C)(C)</code></pre>
+    <pre><code>(C)(C)(L)V(C)(C)</code></pre>
 
     <p>
         Where;
-
-        <ul>
-            <li>
-                <code>[C]</code> is any consonant <i>except <code>Jj</code> and <code>Ww</code></i>
-            </li>
-            <li>
-                <code>[L]</code> is <code>Jj</code> or <code>Ww</code> but not simultaneously both
-            </li>
-            <li>
-                <code>[V]</code> is any vowel
-            </li>
-        </ul>
     </p>
+
+    <ul>
+        <li>
+            <code>[C]</code> is any consonant <i>except <code>Jj</code> and <code>Ww</code></i>
+        </li>
+        <li>
+            <code>[L]</code> is <code>Jj</code> or <code>Ww</code>
+        </li>
+        <li>
+            <code>[V]</code> is any vowel
+        </li>
+    </ul>
 
     <h2 id="writing-extra-rules">Capitalization, Punctuation and more</h2>
 
@@ -457,7 +436,7 @@
 
     <ul>
         <li>
-            Human names (for example, <code>Kousei Lanzo</code>, <code>Haicei Kjomeikon</code>)
+            Human names (for example, <code>Koucei Lanzo</code>, <code>Haicei Kjomeikon</code>)
         </li>
         <li>
             Brand names (for example, <code>Vacelin</code>)

@@ -39,7 +39,7 @@
 -   1. [n.] globe
 -   2. [n.] Earth
 
--   **ynivaca**
+-   **junivaca**
 
 -   1. [n.] universe, space
 -   2. [adj.] global, universal
@@ -192,11 +192,11 @@
 
 -   1. [adj.] lots of, many (amount)
 
--   **cjato**
+-   **leto**
 
 -   1. [adj.] small, tiny (size, existence)
 
--   **cjeto**
+-   **ceto**
 
 -   1. [adj.] a small amount of (amount)
 

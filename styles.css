@@ -27,10 +27,13 @@ p {
     line-height: 1.75;
 }
 
-i,
 b,
 strong {
     color: rgb(140, 145, 160);
+}
+
+i {
+    color: rgb(184, 189, 204);
 }
 
 b:hover,
