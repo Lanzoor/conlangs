@@ -36,6 +36,7 @@ i {
     color: rgb(184, 189, 204);
 }
 
+i:hover,
 b:hover,
 strong:hover {
     color: rgb(200, 205, 220);
